@@ -1,0 +1,29 @@
+{
+  "name": "mxmcallerjs",
+  "version": "1.0.0",
+  "description": "🔥 Herramienta CLI para lookup de números telefónicos. Más potente que TruecallerJS con caché, proxy rotatorio y multicuenta",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "mxmcaller": "./index.js",
+    "mxmcallerjs": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": ["truecaller", "phone-lookup", "callerid", "termux", "cli", "privacy"],
+  "author": "MxmcallerJS Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "ora": "^7.0.1",
+    "node-cache": "^5.1.2",
+    "user-agents": "^1.1.0",
+    "dotenv": "^16.3.1",
+    "crypto-js": "^4.2.0",
+    "fs-extra": "^11.2.0"
+  }
+}
