@@ -1,2 +1,8 @@
-# MxmcallerJS
-MxmcallerJS - Herramienta CLI multiplataforma (Linux/Windows/Termux) para lookup de números telefónicos. Más potente que TruecallerJS con caché, proxy rotatorio y múltiples APIs. 
+# MxmcallerJS 🔥
+
+> Herramienta CLI para lookup de números telefónicos. **Más potente y rápida que TruecallerJS**
+
+## Instalación
+### Linux / Windows
+```bash
+npm install -g MxmcallerJS
